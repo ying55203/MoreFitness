@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoreFitness</title>
+    <title>MoreFitness_5/1營業時間更動</title>
+    <!-- JS -->
+    <script src="./jQuery/js/jquery-1.11.3.min.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="./JS/top.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/news_pages.css">
 </head>
+<style>
+    .text_box{
+        width: 100%;
+    }
+</style>
 <body>
-    <!-- 首頁 -->
     <header id="topbar">
-        <a href="index.html"><img src="./image/logo/logo.png" alt="MoreFitness" class="logo"></a></h1>
+        <a href="index.html"><img src="./image/logo/logo.png" alt="MoreFitness" class="logo"></a>
         <!-- 漢堡按鈕 -->
         <button class="hamburger">
             <span class="bar"></span>
@@ -37,9 +46,44 @@
             </ul>
         </nav>
     </header>
-    <!-- 首頁 -->
+    <!-- 活動消息 -->
     <!-- 主要內容區 -->
     <main>
+        <!-- banner區 -->
+        <div id="banner">
+            <div class="news_title">
+                <div class="title_img"><img src="./image/news/啞鈴-03.svg" alt=""></div>
+                <h3 class="title"><a href="./news.html"><span>公告消息</span></a> /<a href="./news_active.html">特別活動</a></h3>
+        </div>
+        </div>
+        <section id="news">
+            <img src="./image/news/PS/pinkBlock.png" alt="" class="pinkBlock">
+            <img src="./image/news/PS/yellowBlock.png" alt="" class="yellowBlock">
+            <img src="./image/news/PS/orangeBlock.png" alt="" class="orangeBlock">
+            <div class="list_box">
+                <article class="list_item">
+                    <figure><img src="./image/news/PS/text_7.jpg" alt=""></figure>
+                    <div class="text_box">
+                        <span>2021.08.08</span>
+                        <h4>莫爾健身房公告7</h4>
+                        <hr>
+                        <p>測試公告</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="button">
+            <div class="btn">
+                <div class="prev"><a href="./new_text8.html">
+                    <img src="./image/icon/leftbtn.svg" alt="">
+                    <p>Prev</p>
+                </a></div>
+                <div class="next"><a href="./new_text6.html">
+                    <p>Next</p>
+                    <img src="./image/icon/rightbtn.svg" alt="">
+                </a></div>
+            </div>
+        </section>
     </main>
     <!-- 首尾區 -->
     <footer>
@@ -92,7 +136,5 @@
         </div>
         <p>Website Image Source：Unsplash /  Copyright © 莫爾健身 All rights reserved.</p>
     </footer>
-    <script src="./jQuery/js/jquery-1.11.3.min.js"></script>
-    <script src="./JS/script.js"></script>
 </body>
 </html>
